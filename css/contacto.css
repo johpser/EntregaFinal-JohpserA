@@ -1,0 +1,179 @@
+a {
+    text-decoration: none;
+    color: #F4538A;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#bannerContacto {
+    background-color: rgba(191, 236, 240, 0.189);
+    color: #F5DD61;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+
+.horario_contacto,
+.mapa {
+    width: 50%; 
+    padding: 20px;
+    background-color:rgba(191, 236, 240, 0.189);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.horario_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 20px; 
+    border: 2px solid #F4538A;
+    height: 528px;
+}
+
+.horario_contacto .info,
+.mapa-info {
+    max-width: 400px; 
+    text-align: center; 
+}
+
+.horario_contacto .info h2,
+.mapa-info p {
+    font-size: 26px;
+    color: #FAA300;
+    margin-bottom: 10px;
+}
+
+.horario_contacto .turnos {
+    margin-bottom: 15px;
+}
+
+.horario_contacto .turnos h3 {
+    font-size: 16px;
+    color: #FAA300;
+}
+
+.horario_contacto .turnos p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+.horario_contacto .contacto,
+.mapa-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.horario_contacto .contacto .icono {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.horario_contacto .contacto p {
+    font-size: 14px;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    padding: 20px;
+    background-color: rgba(191, 236, 240, 0.189);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 2px solid #F4538A;
+    height: 10%;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(191, 236, 240, 0.189);
+    font-family: 'Noto Sans', sans-serif;
+    border: 2px solid #F4538A;
+}
+
+.contact_form h1 {
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #F5DD61;
+}
+
+.contact_form h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+.contact_form p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact_form input,
+.contact_form textarea {
+    background-color: #fbfbfb;
+    border: 1px solid #F4538A;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact_form textarea {
+    height: 150px;
+}
+
+.contact_form button {
+    background-color: #F4538A;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.contact_form button:hover {
+    background-color: #555; 
+}
+
+.contact_form .aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    outline: none;
+    border-color: #97d848; 
+}

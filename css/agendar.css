@@ -1,0 +1,119 @@
+.bannerAgendar {
+    background-color: rgba(191, 236, 240, 0.189);
+    color: #F5DD61;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #F4538A;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario div {
+    margin-bottom: 15px;
+}
+
+#formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="tel"],
+#formulario select,
+#formulario input[type="date"],
+#formulario input[type="time"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formulario button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#formulario button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+}
+
+#formulario button[type="button"] {
+    background-color: #FAA300;
+    color: white;
+    margin-top: 10px;
+}
+
+#formulario button[type="submit"]:hover,
+#formulario button[type="button"]:hover {
+    opacity: 0.8;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+
+#citasRegistradas {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #F4538A;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#citasRegistradas div {
+    margin-bottom: 15px;
+}
+
+#citasRegistradas p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+
+#consultaResult {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #F4538A;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#consultaResult p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#consultaResult.mostrar {
+    display: block;
+}
+
+#consultaResult.ocultar {
+    display: none;
+}

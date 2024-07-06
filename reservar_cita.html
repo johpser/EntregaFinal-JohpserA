@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/agendar.css">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <header id="header"></header>
+    <button id="toggle-button">Cambiar a modo oscuro</button>
+    <h1 class="bannerAgendar">RESERVAR CITA</h1>
+    <div class="container">
+       
+
+        <div id="formulario">
+            <form id="datos">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tipoDocumento" class="form-label">Tipo de Documento:</label>
+                    <select class="form-select" id="tipoDocumento" name="tipoDocumento" required>
+                        <option value="DNI">DNI</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                        <option value="Carnet de extranjería">Carnet de extranjería</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="numeroDocumento" class="form-label">Número de Documento:</label>
+                    <input type="text" class="form-control" id="numeroDocumento" name="numeroDocumento" required>
+                </div>
+                <div class="mb-3">
+                    <label for="atencion" class="form-label">Tipo de Atención:</label>
+                    <select class="form-select" id="atencion" name="atencion" required>
+                        <option value="Consulta General">Consulta General</option>
+                        <option value="Especialidad">Especialidad</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="fecha" class="form-label">Fecha:</label>
+                    <input type="date" class="form-control" id="fecha" name="fecha" required>
+                </div>
+                <div class="mb-3">
+                    <label for="horario" class="form-label">Horario:</label>
+                    <input type="time" class="form-control" id="horario" name="horario" required>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Reservar Cita</button>
+                    <button type="button" class="btn btn-secondary" id="limpiarBtn">Limpiar</button>
+                    <button type="button" class="btn btn-info" id="consultarBtn">Consultar Cita</button>
+                    <button type="button" class="btn btn-success ocultar" id="nuevaCitaBtn">Generar Nueva Cita</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="citasRegistradas" class="ocultar"></div>
+        <div id="consultaResult"></div>
+        <div id="mensaje"></div>
+        <div id="mensajeError"></div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/agendar.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+/* Reset de estilos y estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Wittgenstein", serif;
+    line-height: 1.6;
+   
+}
+
+header {
+    background-color: #59D5E0;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: 700px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #304463;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    background-color: #F4538A;
+    color: #fff;
+}
+
+#toggle-button {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #F4538A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggle-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #59D5E0;
+    padding: 20px 0;
+    text-align: center;
+    color: #304463;
+}
+
+footer p {
+    margin: 0;
+}
+
+.dark-mode{
+    background-color: #667BC6;
+    color: #304463;
+
+}
+
+.button_grey {
+    background-color: grey;
+}
+
+.tituloIndex {
+    text-align: center;
+}
+
+.tituloIndex h1 {
+    color: #F5DD61;
+    font-size: 50px;
+}
+
+.banner2 h2 {
+    color: #FAA300;
+    font-size: 40px;
+    margin-left: 140px;
+}
+
+.banner2 h2:nth-child(2) {
+    font-size: 35px;
+    margin-top: -30px;
+}
+
+.texAtencion1, .texAtencion2 {
+    border: 2px solid #F4538A;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(89, 213, 224);
+}
+
+#sectIndex2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.cajoninfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 75px;
+    margin-left: 90px;
+    margin-bottom: 75px;
+}
+
+.cajoninfo p {
+    font-size: 30px;
+    color: #304463 ;
+    text-align: center;
+}
+
+.cajoninfo p:nth-child(2) {
+    margin-top: 35px;
+}
+
+.cajoninfo button {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cajoninfo img {
+    width: 80%;
+    border-radius: 100px;
+    border: 2px solid #51614c;
+}
+
+.imagenindex img {
+    width: 80%;
+    border-radius: 100px;
+    border: 2px solid #F4538A;
+}
+
+button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background-color: #F4538A;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos Biografía */
+.imagenBio img {
+    border-radius: 100px;
+    margin-top: 8px;
+    margin-left: 60px;
+}
+
+#sectBio {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 70px;
+    background-color:  rgba(191, 236, 240, 0.189);
+}
+
+#sectBio p {
+    margin-top: 50px;
+}
+
+#sectBio2 {
+    margin-top: 10px;
+}
+
+#sectBio3 {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 70px;
+    margin-top: 50px;
+    padding: 0 45px 40px 45px;
+}
+
+#sectBio3 div {
+    border: 2px solid #F4538A;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(89, 213, 224);
+}
+
+#sectBio3 div h3 {
+    padding-top: 10px;
+}
+
+#sectBio3 div p {
+    padding: 0 20px 20px 20px;
+}
+
+
+    .accordion-body {
+        background-color: rgba(191, 236, 240, 0.189);
+    }
+
+.textonombre{
+    font-size: calc(1.375rem + 1.5vw);
+    color: #F5DD61;
+    padding-top: 23px;
+}
+
+.textodedicacion{
+    font-size: calc(1.325rem + .9vw);
+    color: #FAA300; 
+}
