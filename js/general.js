@@ -16,6 +16,12 @@ document.addEventListener("DOMContentLoaded", function() {
     logo.alt = "Logo";
     logo.classList.add("logo");
 
+    logo.addEventListener("click", function() {
+        window.location.href = "index.html";
+    });
+
+    logo.style.cursor = "pointer";
+
     const navLinks = document.createElement("ul");
     navLinks.classList.add("nav-links");
 
