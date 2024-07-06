@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const botonIndex = document.createElement("button");
     const textButtonInd = document.createElement("a");
-    textButtonInd.href = 'https://paletadecolores.online/vintage/';
+    textButtonInd.href = 'https://johpser.github.io/EntregaFinal-JohpserA/reservar_cita.html';
     textButtonInd.textContent = 'RESERVAR CITA';
     textButtonInd.style.color = 'inherit';
     textButtonInd.style.textDecoration = 'none';
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const botonIndex2 = document.createElement("button");
     const textButton2 = document.createElement("a");
-    textButton2.href = 'http://127.0.0.1:5500/biografia.html';
+    textButton2.href = 'https://johpser.github.io/EntregaFinal-JohpserA/biografia.html';
     textButton2.textContent = 'CONOCER MAS';
     textButton2.style.color = 'inherit';
     textButton2.style.textDecoration = 'none';
