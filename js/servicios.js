@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 cancelButtonText: 'No'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    window.location.href = 'http://127.0.0.1:5500/reservar_cita.html';
+                    window.location.href = 'https://johpser.github.io/EntregaFinal-JohpserA/reservar_cita.html';
                 }
             });
         });
